@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+.btn-primary {
+  --bs-btn-active-bg: #242424;
+}

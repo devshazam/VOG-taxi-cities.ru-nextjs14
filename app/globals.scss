@@ -1,0 +1,528 @@
+
+
+$primary-color: #ffcf01;
+$primary-font-color: #171717;
+$primary-font-hover: #242424;
+
+
+
+h2{
+  font-size: 30px;
+}
+h4{
+  font-size: 24px;
+}
+p{
+  font-size: 18px;
+}
+
+
+
+// ОБЩИЕ ЩАБЛОНЫ ################################################################################################
+.wrap-template{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    &__title{
+        display: inline-block;
+        border-bottom: 1px solid #000;
+        margin-bottom: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: #000
+      }
+}
+
+
+
+
+// ХЕДЕР ############################################################################################################
+.logo{
+    width: 120px!important;
+    
+    }
+
+
+
+// Главный Баннер ##########################################################################################################
+.banner{
+    @media (min-width: 768px) {
+        min-height: 380px;
+    }
+    @media (min-width: 992px) {
+        min-height: 470px;
+    }
+    @media (min-width: 1200px) { 
+        min-height: 550px;
+    }
+    @media (min-width: 1400px) {
+        min-height: 590px;
+    }
+    background: rgb(248,248,250);
+    background: radial-gradient(circle, rgba(248,248,250,1) 0%, rgba(192,194,195,1) 100%);
+    min-height: 500px;
+
+    &__row{
+        @media (min-width: 576px) {
+          padding: 100px 0 100px 0;
+        }
+        padding: 70px 0 60px 0;
+        @media (min-width: 768px) {
+            padding: 70px 0 70px 0;
+        }
+        @media (min-width: 992px) {
+          padding: 100px 0 70px 0;
+        }
+        @media (min-width: 1200px) { 
+            padding: 120px 0 70px 0;
+        }
+    }
+    &__col{
+        margin-bottom: 16px;
+        @media (min-width: 992px) {
+          margin-bottom: 0;
+        }
+    }
+    
+    &__text-wrapper h1{
+        max-width: 540px
+    }
+    &__text-wrapper p{
+        max-width: 540px
+    }
+    &__text{
+        font-size: 14px;
+        @media (min-width: 576px) {
+          font-size: 18px;
+        }
+        @media (min-width: 992px) {
+            font-size: 20px;
+        }
+        @media (min-width: 768px) {
+            font-size: 15px;
+        }
+    }
+    &__highlight{
+        font-size: 22px;
+        background-color: $primary-color;
+        @media (min-width: 576px) {
+          font-size: 33px;
+        }
+        @media (min-width: 768px) {
+            font-size: 22px;
+        }
+    }
+    &__text-transition{
+      font-size: 30px;
+      @media (min-width: 576px) {
+        font-size: 40px;
+      }
+    }
+    &__highlighter{
+      font-size: 22px;
+      @media (min-width: 576px) {
+        font-size: 22px;
+      }
+    }
+    &_img{
+      padding-top: 150px;
+    }
+    &__img{
+        display: none;
+        @media (min-width: 576px) {
+          display: block;
+        }
+      }
+    &__img-xs{
+        // display: none;
+        @media (min-width: 425px) {
+          display: none;
+        }
+      }
+    &__img-md{
+        display: none;
+        @media (min-width: 425px) {
+          display: block;
+        }
+        @media (min-width: 576px) {
+          display: none;
+        }
+    }
+    &_img{
+        @media screen and (max-width: 576px) {
+          padding-top: 40px;
+        }
+    }
+    &__hidden-title{
+      display: none!important;
+      @media (min-width: 576px) {
+        display: inline;
+      }
+  }
+}
+  
+
+
+
+
+
+// Гарантии Сервиса ########################################################################################## 
+.service__title{
+    font-size: 24px!important;
+  }
+  .section-grey_h2{
+    font-size: 26px;
+  }
+    
+    .section-grey_h2{
+        @media screen and (max-width: 576px) {
+          font-size: 22px;
+      }
+  }
+  .wrap-top-content{
+    position: relative;
+  }
+  .top-contene{
+    text-align: center;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+  
+  }
+  .top-contene p{
+    max-width: 600px;
+    display: inline-block
+  }
+  .garanty-wrapper{
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .garanty-wrapper img{
+    display: inline-block;
+    margin-bottom: 20px;
+  } 
+  .garanty-wrapper p{
+    max-width: 400px;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .first-top-padding{
+    padding-top: 220px;
+    padding-bottom: 60px;
+    @media (min-width: 576px) {
+      padding-top: 190px;
+      padding-bottom: 10px
+    }
+    @media (min-width: 992px) {
+      padding-bottom: 30px
+    }
+    @media (min-width: 1400px) {
+        padding-bottom: 40px
+    }
+  }
+
+  .section-grey_text{
+    @media screen and (max-width: 576px) {
+      font-size: 15px;
+    }
+}
+
+
+
+// Слайдер ##########################################################################################
+.mySwiper{
+    &__wrapper{
+        overflow: hidden;
+        width: 100%;
+        border-radius: 7px;
+    }
+    &__wrapper-text{
+        background-color: #fbfbfb;
+        padding: 10px;
+    }
+    &__wrapper-text p{
+    margin: 0;
+    }
+    &__wrapper-text:first-child{
+    font-size: 21px;
+    }
+}
+
+  
+  
+
+// БЛОК ЛОЯЛЬНОСТЬ ########################################################################################
+.loyalty{
+    @media (min-width: 768px) {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    &__card{
+        max-width: 280px;
+        height: 150px;
+        background-color: #363636;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        @media (min-width: 576px) {
+            max-width: 350px;
+            height: 190px;
+        }
+    }
+    &__logo{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 60px;
+        height: auto;
+        @media (min-width: 576px) {
+          width: 80px;
+        }
+    }
+    &__logo2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 40px;
+        height: auto;
+        @media (min-width: 576px) {
+          width: 50px;
+        }
+    }
+    &__text{
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        font-size: 24px;
+        color: white;
+        @media (min-width: 576px) {
+          font-size: 29px;
+        }
+    }
+    &__col-mar{
+        margin-top: 40px;
+        @media (min-width: 768px) {
+          margin-top: 0;
+        }
+    }
+    &__h2{
+        font-size: 22px;
+        @media (min-width: 576px) {
+          font-size: 24px;
+        }
+    }
+    &__desc{
+        font-size: 14px;
+        text-align: justify;
+        @media (min-width: 576px) {
+          font-size: 19px;
+        }
+    }
+    &__wrapper2{
+        width: 90%;
+        margin: auto;
+    }
+
+}
+  
+
+  
+  
+// ТАРИФЫ ##########################################################################################
+.whatsapp:hover{
+    transform: scale(1.2);
+    /* transition: all 0.2s ease 0s; */
+  }
+
+.tarifs__image-tarif{
+    width: 100%;
+    height: auto;
+  }
+  .tarifs__button{
+    background-color: $primary-color;
+    color: $primary-font-color;
+    width: 100%;
+    border: none;
+    margin-top: 14px;
+  }
+  .tarifs__button:hover{
+    background-color: $primary-font-hover;
+    /* color: $primary-font-color; */
+  
+  
+  }
+  
+
+
+  .partners__back{
+    width: 100%;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    background-image: linear-gradient(to right, #e2e2e2, #eeeeee);
+    /* background-color: #f5f5f5; */
+    padding: 25px;
+    margin-bottom: 28px;
+    box-shadow: 0 0 10px rgba(141, 141, 141, 0.5); /* Параметры тени */
+    border-radius: 10px;
+  
+  }
+  .partners__img{
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+  
+  }
+  
+  .practics-block{
+    text-align: left;
+    width: 100%;
+    background-image: linear-gradient(to right, #e2e2e2, #eeeeee);
+    /* background-color: #f5f5f5; */
+    padding: 25px;
+    margin-bottom: 28px;
+    box-shadow: 0 0 10px rgba(141, 141, 141, 0.5); /* Параметры тени */
+    border-radius: 10px;
+  }
+  .practics-block:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+  }
+  .practics-block img{
+    width: 100%;
+    /* transition: all 0.2s ease 0s; */
+  }
+
+
+
+
+// ФОРМА ##########################################################################################
+  .form__button{
+    background-color: $primary-color;
+    color: #000;
+    border: 1px solid $primary-color;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: all 0.2s ease 0s;
+  }
+  .form__button:hover{
+    background-color: $primary-font-hover;
+    border: none;
+  }
+  .form__button:active{
+    background-color: $primary-font-hover;
+    border: none;
+  }
+  
+  
+  
+  
+
+
+
+// ТАБЛИЦА  ##########################################################################################
+
+.table th, td {
+  text-align: left;
+}
+  .ant-card-meta-description{
+    color: #000!important;
+}
+
+
+
+
+// ФУТЕР ##########################################################################################
+.footer__wrapper{
+  padding: 50px 0;
+}
+.footer{
+  background-color: #dfdfdf;
+  border-radius: 40px 40px 0 0;
+}
+.wrapper-footer-content{
+  text-align: left;
+  padding: 10px;
+
+}
+.wrapper-footer-content ul{
+  list-style: circle
+}
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+/* SPRITES */
+
+.sprite { 
+    border-radius: 50%;
+    margin: auto;
+    background: url('/sprites/sprite1.png') no-repeat top left; width: 50px; height: 50px;  } 
+  .sprite.wheely-znachok { background-position: 0 0; } 
+  .sprite.citymobil { background-position: -50px 0; } 
+  .sprite.bolt { background-position: -100px 0; } 
+  .sprite.didi { background-position: -150px 0; } 
+  .sprite.gett { background-position: -200px 0; } 
+  .sprite.go { background-position: -250px 0; } 
+  .sprite.uber { background-position: -300px 0; } 
+  .sprite.indriver { background-position: -350px 0; } 
