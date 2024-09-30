@@ -22,9 +22,9 @@ export default function MainBackground() {
                 <br></br>
                 <Highlighter
                   highlightClassName="banner__highlight"
-                  searchWords={["999", "123-45-67", "the"]}
+                  searchWords={["929", "783-73-33", "the"]}
                   autoEscape={true}
-                  textToHighlight="Тел.: +7 (999) 123-45-67"
+                  textToHighlight="Тел.: +7 (929) 783-73-33"
 
                   className="banner__highlighter"
                 />

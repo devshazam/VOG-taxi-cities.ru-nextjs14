@@ -25,18 +25,18 @@ export default function MainTarifs() {
         </Modal.Header>
         <Modal.Body> 
           <div className='w-full text-center  mb-1'>
-              <a title={"phone"} href={"tel:+79020970101 "}  style={{ color: '#000', fontSize: "28px"}} className='phone-ya'  rel="nofollow">
-                      +7 (902) 097-01-01
+              <a title={"phone"} href={"tel:+79297837333"}  style={{ color: '#000', fontSize: "28px"}} className='phone-ya'  rel="nofollow">
+                      +7 (929) 783-73-33
               </a>
               <p style={{ color: '#000', fontSize: "12px"}}>Мы всегда на связи! Мы готовы подъехать в любую точку области и забрать Вас, или доставить посылку. <b>Звоните, Все персонально и анонимно.</b></p>
           </div>
           <Button   variant="contained" style={{backgroundColor: '#ffd913', color: '#000', width: '100%', textAlign: 'center'}} className='mb-3'> 
-              <a title={"Telegramm"} href={"https://t.me/+79020970101 "} target="_blank" className='phone-ya'>
+              <a title={"Telegramm"} href={"https://t.me/+79297837333"} target="_blank" className='phone-ya'>
                       <Image src={"/telegram.png"} width='44' height='44' alt='phone' style={{display: 'inline-block'}}  rel="nofollow"/>{" "}Написать в Telegram
               </a>
               </Button>
           <Button    variant="contained" style={{backgroundColor: '#ffd913', color: '#000', width: '100%', textAlign: 'center'}}  className='mb-3'>
-              <a title={"Whatsapp"} href={"https://wa.me/+79020970101 "} target="_blank" className='phone-ya' >
+              <a title={"Whatsapp"} href={"https://wa.me/+79297837333"} target="_blank" className='phone-ya' >
                       <Image src={"/icons8-whatsapp1.png"} width='48' height='48' alt='phone' style={{display: 'inline-block'}}  rel="nofollow"/>{" "}Написать в Whatsapp
               </a>
           
