@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -8,7 +9,17 @@ import Row from 'react-bootstrap/Row';
 
 
 export default function FormComponent() {
+  const [validated, setValidated] = useState(false);
 
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    setValidated(true);
+  };
   return (
     <>
     <div id='order' className='bg-gray-100'>
@@ -18,8 +29,8 @@ export default function FormComponent() {
           <Row>
                 {/* <Col xs={12} md={8}> */}
                 <Form noValidate 
-            // validated={validated} onSubmit={handleSubmit} 
-            action="https://formspree.io/f/mwpeedjj"
+            validated={validated} onSubmit={handleSubmit} 
+            action="https://formspree.io/f/myzygvzy"
               method="POST">
                   <Row className="mb-3">
                     <Form.Group as={Col} md="6" >
