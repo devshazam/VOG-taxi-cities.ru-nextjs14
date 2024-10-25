@@ -35,14 +35,14 @@ export default function FormComponent() {
                   <Row className="mb-3">
                     <Form.Group as={Col} md="6" >
                       <Form.Label  htmlFor="city1">От куда:</Form.Label>
-                      <Form.Control type="text" placeholder="Москва" required  name="city1" id='city1'/>
+                      <Form.Control type="text" placeholder="Город " required  name="city1" id='city1'/>
                       <Form.Control.Feedback type="invalid">
                         Введите пожалуйста наименование.
                       </Form.Control.Feedback>
                     </Form.Group>
                     <Form.Group as={Col} md="6">
                       <Form.Label htmlFor="city2">Куда:</Form.Label>
-                      <Form.Control type="text" placeholder="Казань" required  name="city2" id='city2'/>
+                      <Form.Control type="text" placeholder="Город" required  name="city2" id='city2'/>
                       <Form.Control.Feedback type="invalid">
                         Введите пожалуйста наименование.
                       </Form.Control.Feedback>
@@ -51,7 +51,7 @@ export default function FormComponent() {
                     <Row className="mb-3">
                     <Form.Group as={Col} md="12" >
                       <Form.Label htmlFor="phone">Контактный телефон:</Form.Label>
-                      <Form.Control type="text" placeholder="+79991234567" required  name="phone"  id='phone'/>
+                      <Form.Control type="text" placeholder="+7XXXX-XXX-XX-XX" required  name="phone"  id='phone'/>
                       <Form.Control.Feedback type="invalid">
                       Введите пожалуйста телефон.
                       </Form.Control.Feedback>

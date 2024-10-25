@@ -15,8 +15,8 @@ export default function TableOfCost() {
         <Table striped bordered hover align='center'>
       <thead>
         <tr>
-          <th >Направление</th>
-          <th>Метраж</th>
+          <th >Направление:</th>
+          <th>Расстояние:</th>
         </tr>
       </thead>
       <tbody>
