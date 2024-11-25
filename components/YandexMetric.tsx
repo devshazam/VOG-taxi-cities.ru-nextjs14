@@ -29,7 +29,7 @@ export default function YandexMetric() {
                    
                     for (let i = 0; i < rulesBtn.length; i++) {
                         rulesBtn[i].addEventListener("click", function() {
-                            ym(99032379, 'reachGoal', 'click-phone'); return true;
+                            ym(99032379,'reachGoal','click-phone'); return true;
                         });
                     }
                 `}
