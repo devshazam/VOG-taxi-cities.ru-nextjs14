@@ -20,14 +20,16 @@ export default function MainBackground() {
                     <TransitionTextComp />
                   </Suspense>
                 <br></br>
-                <Highlighter
-                  highlightClassName="banner__highlight"
-                  searchWords={["929", "783-73-33", "the"]}
-                  autoEscape={true}
-                  textToHighlight="Тел.: +7 (929) 783-73-33"
+				<a href='tel:+79297837333' className='phone-ya' rel="nofollow">
+					<Highlighter
+					highlightClassName="banner__highlight"
+					searchWords={["929", "783-73-33", "the"]}
+					autoEscape={true}
+					textToHighlight="Тел.: +7 (929) 783-73-33"
 
-                  className="banner__highlighter"
-                />
+					className="banner__highlighter"
+					/>
+				</a>
                   <p className="banner__text">Наша компания работает с 2005 года и все это время мы изо всех сил стараемся угодить клиентским запросам на высшем уровне! <span className="banner__hidden-title">В нашей компании все клиенты будут удовлетворены!</span></p>
                 </div>
             

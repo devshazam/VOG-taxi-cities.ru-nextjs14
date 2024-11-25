@@ -27,7 +27,7 @@ export default function Header(){
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Меню
+                  <a className='phone-ya yellow' href="tel:+79297837333" rel="nofollow">Тел.: +7 (929) 783-73-33</a>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -36,7 +36,7 @@ export default function Header(){
                   <Nav.Link href="/#reviews"  rel="nofollow">Оценки</Nav.Link>
                   <Nav.Link href="/#order"  rel="nofollow">Заказать</Nav.Link>
                 </Nav>
-
+				<a className='phone-ya' href="tel:+79297837333" rel="nofollow">Тел.: +7 (929) 783-73-33</a>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
 

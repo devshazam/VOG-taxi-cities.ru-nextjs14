@@ -34,7 +34,7 @@ export default function Footer() {
                       <div className="wrapper-footer-content">
                         <p><b>Контакты</b></p>
                         <ul>
-                          <li><a href='tel:+79297837333' style={{color: 'black', textDecoration: 'none'}}>+7 (929) 783-73-33</a></li>
+                          <li><a className='phone-ya' href="tel:+79297837333" style={{color: 'black', textDecoration: 'none'}}>+7 (929) 783-73-33</a></li>
                         </ul>
                       </div>
                     </Col>
