@@ -36,7 +36,8 @@ export default function Header(){
                   <Nav.Link href="/#reviews"  rel="nofollow">Оценки</Nav.Link>
                   <Nav.Link href="/#order"  rel="nofollow">Заказать</Nav.Link>
                 </Nav>
-				<a className='phone-ya' href="tel:+79297837333" rel="nofollow">Тел.: +7 (929) 783-73-33</a>
+				
+				  <a className='phone-ya p-2' href="tel:+79297837333" rel="nofollow">Тел.: +7 (929) 783-73-33</a>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
 

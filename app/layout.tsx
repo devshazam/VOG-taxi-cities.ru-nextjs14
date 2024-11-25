@@ -4,6 +4,7 @@ import "./globals.scss";
 import type { Viewport } from 'next'
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
+import YandexMetric from "@/components/YandexMetric";
 
 import localFont from 'next/font/local'
 const play = localFont({
@@ -72,6 +73,7 @@ export default function RootLayout({
         <Header />
           {children}
         <Footer />
+		<YandexMetric />
         </body>
     </html>
   );
