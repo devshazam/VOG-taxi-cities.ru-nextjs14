@@ -30,7 +30,7 @@ export default function FormComponent() {
                 {/* <Col xs={12} md={8}> */}
                 <Form noValidate 
             validated={validated} onSubmit={handleSubmit} 
-            action="https://formspree.io/f/myzygvzy"
+            action="https://formspree.io/f/xanwnzje"
               method="POST">
                   <Row className="mb-3">
                     <Form.Group as={Col} md="6" >
